@@ -1,5 +1,5 @@
 body {
-    background-color: #222;
+    background-color: #212121;
     color: white;
     margin: 0;
     padding: 0;
@@ -55,6 +55,7 @@ body {
     background-color: white;
     padding: 10px 15px;
     border-radius: 50px;
+    font-size: 0.9em;
     border: none;
     text-decoration: none;
 }
@@ -65,10 +66,11 @@ body {
 }
 
 .signup {
-    background-color: #222;
-    color: white;
-    border: 1px solid gray;
+    background-color: #212121;
+    color: #ececec;
+    border: 1px solid #ffffff26;
     padding: 10px 15px;
+    font-size: 0.9em;
     border-radius: 50px;
     text-decoration: none;
 }
@@ -78,6 +80,12 @@ body {
     background-color: #333;
 }
 
+h1 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #ececec;
+}
+
 .chat-container {
     display: flex;
     flex-direction: column;
@@ -85,6 +93,7 @@ body {
     align-items: center;
     height: 100%;
     width: 100%;
+    margin-bottom: 25px;
 }
 
 .prompt {
@@ -106,7 +115,7 @@ body {
 }
 
 .input-text {
-    width: 80%;
+    width: 82%;
     resize: none;
     height: 5px;
     padding: 20px;
@@ -117,6 +126,12 @@ body {
     border: none;
 }
 
+.input-text::placeholder {
+    color: #b4b4b4;
+    font-size: 1.1em;
+    font-family: 'Inter', sans-serif;
+}
+
 .input-text:focus {
     outline: none;
 }
@@ -125,7 +140,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #333;
-    width: 80%;
+    width: 82%;
     padding: 10px 20px 10px 20px;
     border-radius: 0px 0px 20px 20px;
 }
@@ -148,9 +163,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    background-color: #222;
-    color: rgb(176, 176, 176);
-    border: 1px solid gray;
+    background-color: #212121;
+    color: #9b9b9b;
+    border: 1px solid #ffffff26;
     padding: 5px 10px;
     border-radius: 20px;
     font-size: 0.8em;
@@ -171,6 +186,33 @@ body {
 .footer {
     text-align: center;
     width: 100%;
-    color: rgb(176, 176, 176);
-    font-size: small;
+    color: #b4b4b4;
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+u {
+    color: #ececec;
+}
+
+.options {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 3px;
+    color: #b4b4b4;
+    background-color: #212121;
+    border-radius: 50%;
+    border: 1px solid #ffffff26;
+}
+
+.options button:hover {
+    cursor: pointer;
+}
+
+.options button {
+    background-color: #212121;
+    font-size: 12px;
+    color: #b4b4b4;
+    border: none;
 }
