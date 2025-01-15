@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>ChatGPT UI</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="left">
+                <div class="new"><img src="assets/newchat.svg"></div>
+                <div class="model">
+                    <div>ChatGPT 4o mini</div>
+                    <div>
+                        <img src="assets/downarrow.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <button class="login">Log in</button>
+                <button class="signup">Sign up</button>
+            </div>
+        </div>
+
+        <div class="chat-container">
+            <div class="greeting">
+                <h2>What can I help with?</h2>
+            </div>
+            <div class="prompt">
+                <div class="chat">
+                    <textarea class="input-text" type="text" placeholder="Message ChatGPT"></textarea>
+                </div>  
+                <div class="icons">
+                    <img src="assets/attachment.svg">
+                    <img class="send" src="assets/send.svg">
+                </div>
+            </div>
+            <div class="suggestions">
+                <button>
+                    <img src="assets/sug1.svg">
+                    Get advice
+                </button>
+                <button>
+                    <img src="assets/sug2.svg">
+                    Summarize a text
+                </button>
+                <button>
+                    <img src="assets/sug3.svg">
+                    Brainstorm
+                </button>
+                <button>
+                    <img src="assets/sug4.svg">
+                    Help me write
+                </button>
+                <button>
+                    <img src="assets/sug5.svg">
+                    Code
+                </button>
+                <button>
+                    More
+                </button>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>By messaging ChatGPT, you agree to our <u>Terms</u> and have read our <u>Privacy Policy</u>.<p>
+        </footer>
+    </div>
+</body>
+</html>

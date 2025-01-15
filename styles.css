@@ -1,0 +1,176 @@
+body {
+    background-color: #222;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    width: 100%;
+    color: rgb(176, 176, 176);
+}
+
+.model {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.model:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    gap: 10px;
+}
+
+.right {
+    display: flex;
+    gap: 10px;
+    padding: 5px 20px;
+}
+
+.login {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+}
+
+.login:hover {
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.signup {
+    background-color: #222;
+    color: white;
+    border: 1px solid gray;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.signup:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.prompt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 10px;
+}
+
+.greeting {
+    font-size: 1.3em;
+}
+
+.chat {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.input-text {
+    width: 80%;
+    resize: none;
+    height: 5px;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 14px;
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+.input-text:focus {
+    outline: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    width: 80%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.send {
+    background-color: rgb(120, 119, 119);
+    color: white;
+    border-radius: 50%;
+}
+
+.suggestions {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 10px;
+}
+
+.suggestions button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #222;
+    color: rgb(176, 176, 176);
+    border: 1px solid gray;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8em;
+}
+
+.suggestions button img {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.suggestions button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #333;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    color: rgb(176, 176, 176);
+    font-size: small;
+}
